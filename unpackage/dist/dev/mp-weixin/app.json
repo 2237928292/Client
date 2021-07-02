@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/car/car",
+    "pages/me/me",
+    "pages/mgou/mgou",
+    "pages/Logo/Logo",
+    "pages/mgou/buy/Navigationindetail",
+    "pages/mgou/buy/drawings",
+    "pages/mgou/buy/ProductDetails",
+    "pages/mgou/buy/buy",
+    "pages/mgou/buy/ShoppingCart",
+    "pages/mgou/buy/qielxr"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#33a5e0",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabBaricon/01/home.png",
+        "selectedIconPath": "static/tabBaricon/02/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mgou/mgou",
+        "iconPath": "static/tabBaricon/01/mai.png",
+        "selectedIconPath": "static/tabBaricon/02/mai.png",
+        "text": "选购"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "static/tabBaricon/01/car1.png",
+        "selectedIconPath": "static/tabBaricon/02/car1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBaricon/01/msg.png",
+        "selectedIconPath": "static/tabBaricon/02/msg.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabBaricon/01/me.png",
+        "selectedIconPath": "static/tabBaricon/02/me.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,50 @@
+.box {
+		background-color: #FFFFFF;
+		uni-image>img{
+			opacity: 1;
+		}
+		image{
+			opacity: 1;
+		}
+		img{
+			opacity: 1;
+		}
+	}
+
+	swiper {
+		height: 240px;
+		.uni-image > img{
+			opacity: 1;
+		}
+		.swiper-item {
+			background-color: #007AFF;
+			.images{
+				image{
+					opacity: 1;
+				}
+			}
+			
+			image {
+				width: 100%;
+			}
+		}
+	}
+
+	.content {
+		width: 100%;
+
+		.active {
+			width: 25%;
+			float: left;
+			text-align: center;
+			background-color: #FFFFFF;
+			image {
+				width: 60px;
+				height: 60px;
+				display: block;
+				margin: auto;
+			}
+		}
+	}
+	
+	

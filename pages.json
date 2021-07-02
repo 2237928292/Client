@@ -1,0 +1,421 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"app-plus": {
+					"titleNView": false,
+					"popGesture": "none",
+					"softinputNavBar": "none",
+
+					// "titleNView": {
+					// 	"buttons": [{
+					// 		// "text": "\u25A2", // 字体图标\u 开头，加上字体图标unicode后面四位
+					// 		"text": "\ue6b3",
+					// 		"fontSrc": "/static/iconfont.ttf",
+					// 		"fontSize": "30px"
+					// 	}]
+					// },
+					"compatible": {
+						"ignoreVersion": true //   表示忽略其他更新
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"onReachBottomDistance": 100,
+				"app-plus": {
+					"titleNView": false,
+					"popGesture": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		}, {
+			"path": "pages/car/car",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"app-plus": {
+					"titleNView": false,
+					"popGesture": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我",
+				"app-plus": {
+					"titleNView": false,
+					"popGesture": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		}, {
+			"path": "pages/mgou/mgou",
+			"style": {
+				"navigationBarTitleText": "选购商品",
+				"app-plus": {
+					"titleNView": false,
+					"popGesture": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/Logo/Logo",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"popGesture": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/mgou/buy/Navigationindetail",
+			"style": {
+				"navigationBarTitleText": "选购商品"
+			}
+		},
+		{
+			"path": "pages/mgou/buy/drawings",
+			"style": {
+				"navigationBarTitleText": "选购商品"
+			}
+		},
+		{
+			"path": "pages/mgou/buy/ProductDetails",
+			"style": {
+				"navigationBarTitleText": "选购商品"
+			}
+		}, {
+			"path": "pages/mgou/buy/buy",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		}, {
+			"path": "pages/mgou/buy/ShoppingCart",
+			"style": {}
+		}, {
+			"path": "pages/mgou/buy/qielxr",
+			"style": {}
+		}, {
+			"path": "pages/home/work/Warranty/Warranty",
+			"style": {
+				"navigationBarTitleText": "我要报修",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16",
+							"float": "right",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/work/Warranty/AdWarrantypro/AdWarrantypro",
+			"style": {
+				"navigationBarTitleText": "联系人"
+			}
+		}, {
+			"path": "pages/home/work/Warranty/DeviceIn/DeviceIn",
+			"style": {
+				"navigationBarTitleText": "选择设备",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16",
+							"float": "right",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/work/Warranty/Faultdescr/Faultdescr",
+			"style": {
+				"navigationBarTitleText": "故障描述",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16",
+							"float": "right",
+							"color": "#333333"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/work/Ordermanagement/Ordermanagement",
+			"style": {
+				"navigationBarTitleText": "报修管理",
+				"onReachBottomDistance": 500 //触发
+			}
+		}, {
+			"path": "pages/home/work/Ordermanagement/text/text",
+			"style": {
+				"navigationBarTitleText": "报修详情"
+			}
+		}, {
+			"path": "pages/home/work/Me/Me",
+			"style": {
+				"navigationBarTitleText": "客户信息"
+			}
+		}, {
+			"path": "pages/home/work/Customerequipment/Customerequipment",
+			"style": {
+				"navigationBarTitleText": "客户设备"
+			}
+		}, {
+			"path": "pages/home/work/Contactperson/Contactperson",
+			"style": {
+				"navigationBarTitleText": "英之杰联系人"
+			}
+		}, {
+			"path": "pages/home/work/Surrogatemachine/Surrogatemachine",
+			"style": {
+				"navigationBarTitleText": "VIP客户可享受代用机服务"
+			}
+		}, {
+			"path": "pages/home/work/Customerequipment/Customerequipments/Customerequipments",
+			"style": {
+				"navigationBarTitleText": "设备详情"
+			}
+		}, {
+			"path": "pages/home/work/Order/Order",
+			"style": {
+				"navigationBarTitleText": "订单管理"
+			}
+		},
+		{
+			"path": "pages/home/work/Order/Orders",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/home/work/Me/meProlims",
+			"style": {
+				"navigationBarTitleText": "联系人详情"
+			}
+		}, {
+			"path": "pages/home/work/Ordermanagement/text/RepairCosts",
+			"style": {
+				"navigationBarTitleText": "审核报价"
+			}
+		}, {
+			"path": "pages/Logo/CusRegister",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/me/introduction/introduction",
+			"style": {
+				"navigationBarTitleText": "关于公司"
+			}
+		}, {
+			"path": "pages/me/Suggestions/Suggestions",
+			"style": {
+				"navigationBarTitleText": "投诉与建议"
+			}
+		}, {
+			"path": "pages/home/work/Shoptools/Shoptools",
+			"style": {
+				"navigationBarTitleText": "请选择借用的工具",
+				"app-plus": {
+
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							// "text": "\u25A2", // 字体图标\u 开头，加上字体图标unicode后面四位
+							"text": "\ue001",
+							"fontSrc": "/static/ttf/bdfont.ttf",
+							"fontSize": "30px"
+						}]
+					}
+				}
+
+			}
+		}, {
+			"path": "pages/home/work/Shoptools/Shoptoolsbuy/Shoptoolsbuy",
+			"style": {
+				"navigationBarTitleText": "确认借用清单",
+				"app-plus": {
+
+					// "titleNView": {
+					// 	"buttons": [{
+					// 		// "text": "\u25A2", // 字体图标\u 开头，加上字体图标unicode后面四位
+					// 		"text": "\ue6b3",
+					// 		"fontSrc": "/static/iconfont.ttf",
+					// 		"fontSize": "30px"
+					// 	}]
+					// },
+					"compatible": {
+						"ignoreVersion": true //   表示忽略其他更新
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/work/Shoptools/Shoptoollist/Shoptoollist",
+			"style": {
+				"navigationBarTitleText": "工具借用清单"
+			}
+		}, {
+			"path": "pages/home/work/Shoptools/Shoptoolsmsg/Shoptoolsmsg",
+			"style": {
+				"navigationBarTitleText": "详细信息"
+			}
+		}, {
+			"path": "pages/home/work/Ordermanagement/text/textVideo",
+			"style": {
+				"navigationBarTitleText": "报修视频详情"
+			}
+		}, {
+			"path": "pages/home/work/all/all",
+			"style": {
+				"navigationBarTitleText": "全部"
+			}
+		}
+
+		, {
+			"path": "pages/home/work/lease/lease",
+			"style": {
+				"navigationBarTitleText": "借用工具",
+				"onReachBottomDistance": 10, //触发的距离
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							// "text": "\u25A2", // 字体图标\u 开头，加上字体图标unicode后面四位
+							"text": "\ue001",
+							"fontSrc": "/static/ttf/bdfont.ttf",
+							"fontSize": "30px"
+						}]
+					}
+
+				}
+			}
+		}, {
+			"path": "pages/home/work/lease/leaseList",
+			"style": {
+				"navigationBarTitleText": "借用记录",
+				"onReachBottomDistance": 10 //触发的距离
+
+
+			}
+		}, {
+			"path": "pages/home/work/lease/shoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/home/work/lease/AdleasePro",
+			"style": {
+				"navigationBarTitleText": "选择联系人"
+			}
+		}, {
+			"path": "pages/home/work/lease/leasemsglook",
+			"style": {
+				"navigationBarTitleText": "查看借用记录详情"
+			}
+		}, {
+			"path": "pages/me/VersionUpdate/VersionUpdate",
+			"style": {
+				"navigationBarTitleText": "检查更新"
+			}
+
+		}, {
+			"path": "pages/index/seeDetails",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"popGesture": "none",
+					"softinputNavBar": "none"
+				}
+			}
+		}
+	],
+
+
+
+
+
+
+
+
+
+
+
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	"tabBar": { //底部导航栏
+		"color": "#333333", //文字颜色
+		"selectedColor": "#1296db", // 激活后文字颜色
+		"backgroundColor": "#FFFFFF", //   tabbar 的背景颜色
+		"list": [{
+				"pagePath": "pages/home/home", //页面路径
+				"iconPath": "static/tabBaricon/01/01.png",
+				"selectedIconPath": "static/tabBaricon/02/01.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/mgou/mgou", //页面路径
+				"iconPath": "static/tabBaricon/01/02.png",
+				"selectedIconPath": "static/tabBaricon/02/02.png",
+				"text": "选购"
+			},
+			{
+				"pagePath": "pages/car/car", //页面路径
+				"iconPath": "static/tabBaricon/01/03.png",
+				"selectedIconPath": "static/tabBaricon/02/03.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/index/index", //页面路径
+				"iconPath": "static/tabBaricon/01/xiaoxizhongxin.png",
+				"selectedIconPath": "static/tabBaricon/02/xiaoxizhongxin.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/me/me", //页面路径
+				"iconPath": "static/tabBaricon/01/wode.png",
+				"selectedIconPath": "static/tabBaricon/02/wode.png",
+				"text": "我"
+			}
+		]
+	}
+}

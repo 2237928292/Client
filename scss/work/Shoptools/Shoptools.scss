@@ -1,0 +1,215 @@
+.top{
+	width: 100%;
+	height: 50px;
+	padding: 5px;
+	// padding-left: 50px;
+	box-sizing: border-box;
+	image{
+		width: 27px;
+		height: 27px;
+		float: left;
+		margin-right: 10px;
+	}
+	input{
+		width: calc(100% - 120px);
+		float: left;
+		height: 27px;
+		border: 1px solid #ccc ;
+		border-radius: 5px;
+		margin-right: 10px;
+	}
+	.right_Number{
+		width: 130px;
+		height: 100%;
+		float: right;
+		line-height: 40px;
+	}
+}
+.content{
+	width:100%;
+	height:  calc(100% - 100px);
+	background-color: #f0f0f0;
+	overflow: auto;
+	.member-list-li{
+		height: 90px;
+	    position: relative; 
+	    overflow: hidden;
+	    margin: 15px 0;
+	    border: 1px solid #EEEEEE;
+	    border-radius: 10px;
+	    color: #fff;
+		box-sizing: border-box;
+	}
+	.touch-list{
+		height: 100%;
+	    position: absolute; 
+	    top:0; 
+	    // background-color: #697082;
+		background-color: #FFFFFF;
+	    border-radius: 10px;
+	    overflow: hidden;
+		box-sizing: border-box;
+		
+	}
+	.list-touch{
+	    position: relative;
+	    width: 100%;   
+	    z-index: 5;    
+	    transition: left 0.2s ease-in-out;   
+	    white-space:nowrap;   
+	    overflow:hidden;   
+	    text-overflow:ellipsis; 
+		box-sizing: border-box;
+		
+	}
+	.list-delete{
+	    right: 0; 
+	    float: left;
+	    width: 120px;
+	    height: 100%;
+		line-height: 90px;
+	    background-color: #00aaff;
+	    border-radius: 0 10px 10px 0;
+	    color: #fff;
+	    font-size: 15px;
+		padding-left: 40px;
+	    // font-weight: lighter;
+	    text-align: center;
+		box-sizing: border-box;
+	}
+	.trueAndFalse{
+		width: 100%;
+		height: 100%;
+		border-radius: 10px;
+		padding: 10px;
+		box-sizing: border-box;
+		
+		color: #000;
+		.left{
+			width: calc(100% - 90px);
+			height: 70px;
+			overflow: hidden;
+			line-height: 25px;
+			padding-right: 20px;
+			box-sizing: border-box;
+			float: left;
+			view{
+				overflow: hidden;
+			}
+		}
+		.right{
+			width: 70px;
+			height: 70px;
+			background-color: #bacee8;
+			// float: right;
+			float: left;
+		}
+	}
+	.msg{
+		width: 100%;
+		height: 80px;
+		background-color: #fcfcfc;
+		border-bottom: 1px solid #555555;
+		.msg2{
+			width: 130%;
+			height: 100%;
+			background-color: #2C405A;
+		}
+	}
+}
+
+.gwc{
+			width: 100px;
+			height: 70px;
+			position: fixed;
+			bottom: 20px;
+			right: 60px;
+			border-radius: 5px;
+			background-color: #d5d5d5;
+			padding: 10px;
+			box-sizing: border-box;
+			z-index: 100;
+			image{
+				width: 60px;
+				height: 60px;
+				float: right;
+			}
+			.jioabiao{
+				position: absolute;
+				color: red;
+				left: 3px;
+				bottom: 15px;
+				font-weight: bold;
+				font-size: 20px;
+			}
+		}
+		
+		
+.item {
+			width: 98%;
+			height: 60px;
+			border: 1px solid #e3dfdf;
+			margin: auto;
+			border-radius: 5px;
+			margin-top: 10px;
+
+			-webkit-box-shadow: 3px 3px 6px #c1c1c1;
+			-moz-box-shadow: 3px 3px 6px #c1c1c1;
+			box-shadow: 3px 3px 6px #c1c1c1;
+
+			.leftitem {
+				width: calc(100% - 60px);
+				height: 100%;
+				float: left;
+				// 上部分
+				.itemTop {
+					width: 100%;
+					height: 50%;
+					padding-left: 10px;
+					overflow: hidden;
+					box-sizing: border-box;
+					line-height: 30px;
+					font-weight: bold;
+					font-size: 12px;
+				}
+				
+				.itemBottom {
+					width: 100%;
+					height: 50%;
+					padding-left: 10px;
+					padding-right: 10px;
+					overflow: hidden;
+					box-sizing: border-box;
+					line-height: 30px;
+					font-size: 12px;
+				
+					span {
+						color: #939393;
+					}
+				
+					.span {
+						float: right;
+						color: #000000;
+					}
+				}
+			}
+
+			.rightitem {
+				width: 60px;
+				height: 100%;
+				float: left;
+				padding: 5px;
+				box-sizing: border-box;
+			}
+		}
+.zanwu{
+			width: 100%;
+			height: 80%;
+			color: red;
+			// line-height: 100px;
+			padding-top: 100px;
+			box-sizing: border-box;
+			line-height: 30px;
+			font-size: 20px;
+			text-align: center;
+		}
